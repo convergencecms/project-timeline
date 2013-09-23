@@ -1,14 +1,31 @@
-Project Timeline
+Project Timeline using Convergence Item Lists
 ================
 
-An HTML template for online project timelines.
+We loved the HTML template for online project timelines built by @bradfrost - we thought wouldn't it be cool if we built this on Convergence?
 
-## What is a project timeline and why would I use one?
-A project timeline is a tool for keeping track of the progress of a design project. The timeline lives online (either publically available or password protected), so that everyone involved in the team has access to it.
+So we did.
 
-The benefits of using a project timeline:
-- Serves as a centralized hub for the project
-- Easily and visually view project progress
-- Provides an archive for project artifacts
-- Keep clients and team members up to speed with design progress
-- Lives at a URL that doesn't change
+A few enhancements:
+- Add multiple projects
+- Add timeline events easily
+- Link to and upload files
+
+See a working demo here:
+
+http://bistro.convergencecms.co/timeline-designing-in-the-open
+
+## Setting up
+
+- Add a new site in Convergence with Item Lists
+- Login and under ITEM LISTS add one called "Timeline"
+- Add another ITEM LIST called "Timeline Date"
+- Edit the Settings for "Timeline Date"
+- Add a field called Timeline - use field type: Timeline (Dropdown Menu)
+- Add a field called Date
+- Add a field called File
+- Add a field called File Description - use the field type: Single Line Text Box
+- Save your changes.
+- Add a new item into "Timeline" and give it your project name
+- Add a new item into "Timeline Date" ... maybe called "Initial Contact", choose your project, date, file, and file description
+- Repeat this for any other dates on your timeline.
+- Voila! You can go back into your "Timeline" item and click "View in Site".

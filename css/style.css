@@ -65,15 +65,18 @@ h3 {
   line-height: 1.1;
   margin: 0 0 0.2em;
   text-transform: lowercase; }
+  
+.display-0{
+  display:none; }
 
 /************End Global**************/
 /************Timeline**************/
 /* Timeline Container */
-.timeline {
+.display-custom-timeline {
   border-left: 5px solid #dddddd;
   padding-bottom: 3em;
   position: relative; }
-  .timeline:before {
+  .display-custom-timeline:before {
     content: "";
     position: absolute;
     bottom: 0;
